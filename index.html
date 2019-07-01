@@ -12,18 +12,18 @@
 
     <title>Analysis Tool</title>
 
-    {% load staticfiles %}
+    {% load index files %}
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="{% static 'index/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% index 'css/bootstrap.min.css' %}">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="{% static 'index/css/grayscale.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'index/css/css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% index 'css/grayscale.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% index 'css/css/style.css' %}">
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <!-- Custom Fonts -->
-    <link href="{% static 'index/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% index 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
 
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -221,16 +221,16 @@
     <script src="home/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{% static 'home/js/bootstrap.min.js' %}"></script>
+    <script src="{% index 'home/js/bootstrap.min.js' %}"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="{% static 'home/js/jquery.easing.min.js' %}"></script>
+    <script src="{% index 'home/js/jquery.easing.min.js' %}"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWgoJVJgzqUcbnYRL1CIfZglQN8rlMUs8&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="home/js/grayscale.js"></script>
+    <script src="{% index 'home/js/grayscale.js' %}"></script>
 
 </body>
 
