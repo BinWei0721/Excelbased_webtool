@@ -212,16 +212,24 @@
 }
 
 
+#ss-submit{
+    border: solid rgba(255,127,80,1) 5px;
+    /*border-bottom: solid black 2px;*/
 
+    background: rgba(255,127,80,0.5);
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
 
+    font-family: 'Open Sans';
+    font-size: 30px;
+    text-transform: uppercase;
+}
 
+#ss-submit:focus, input[type="button"]:focus {
+    outline: none;
+}
 
-
-
-
-
-
-
-
-
-
+#ss-submit:hover{
+    background: rgba(255,127,80,1);             /*coral*/
+}
